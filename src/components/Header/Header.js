@@ -9,7 +9,7 @@ const Header = () => {
                 {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
             </div>
             {/* <ul className={`md:flex justify-center absolute duration-500 easy-in ${open ? 'top-120' : 'top-[-120px]'}`}> */}
-            <ul className='md:flex justify-center'>
+            <ul className='md:flex justify-center bg-white'>
                 <li>
                     <NavLink
                         style={({ isActive }) => {

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "624b239ef1548ee817924e71",
+    "name": "Blue Sports Sedan",
+    "img": "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?t=st=1649155788~exp=1649156388~hmac=bb221a6f379120806e1a583d2e041f2d6f87779a79dd4ca600761598a18a3b97&w=740",
+    "rating": 4.5,
+    "reviewerImg": "https://img.freepik.com/free-photo/portrait-beautiful-african-woman-sitting-sofa-drinking-tea-isolated-home-interior_155003-45336.jpg?t=st=1649098692~exp=1649099292~hmac=ef9f57805eb0f5e4f50e528d47c5dff5adeb421b78f473d6b432f17b1018d174&w=740",
+    "reviewer": "Carla Jones",
+    "review": "Aliqua adipisicing incididunt sit dolore labore proident. Exercitation nisi officia aliqua duis exercitation eu commodo aliqua eu labore reprehenderit culpa. Irure et qui dolore officia occaecat ex ex esse quis do. Non esse ipsum sint dolor eu ut ut ut amet reprehenderit. Ullamco dolore amet non aliquip Lorem. Cillum ut labore consequat aliqua labore in ut incididunt ea sint esse labore.\r\n"
+  },
+  {
+    "id": "624b239e38c87d34affcb6a4",
+    "name": "Grey Metallic Sports Car",
+    "img": "https://img.freepik.com/free-photo/grey-metallic-color-sport-car-sunset_114579-4081.jpg?w=740",
+    "rating": 4.0,
+    "reviewerImg": "https://img.freepik.com/free-photo/portrait-eastern-arabian-man-purple-background_280538-5458.jpg?w=740",
+    "reviewer": "David Smith",
+    "review": "Esse voluptate elit ullamco incididunt. Voluptate ad aliqua cillum duis consequat. Enim consectetur ipsum tempor qui cillum fugiat et veniam minim consequat incididunt. Occaecat laborum qui occaecat proident aute dolore laborum ad velit magna quis adipisicing incididunt. Esse nisi commodo cupidatat culpa ea eiusmod laborum in magna laborum cupidatat proident.\r\n"
+  },
+  {
+    "id": "624b239e828ebe153af77f28",
+    "name": "Crome Black Sports Car",
+    "img": "https://img.freepik.com/free-photo/chrome-black-sport-car-parking-with-front-lights_114579-4020.jpg?w=740",
+    "rating": 4.5,
+    "reviewerImg": "https://img.freepik.com/free-photo/portrait-happy-young-man-carrying-backpack-taking-selfie-with-smartphone_23-2148203139.jpg?w=740",
+    "reviewer": "Michael Watson",
+    "review": "Aliquip occaecat pariatur labore qui nostrud ullamco. Aliqua dolore officia ipsum adipisicing occaecat nisi fugiat consectetur deserunt. Aliquip deserunt elit incididunt cupidatat deserunt minim dolore tempor. Et minim Lorem laboris ipsum incididunt nulla labore laboris do dolore excepteur nulla. Aliquip ex nisi Lorem duis dolore ut cillum occaecat est occaecat nisi fugiat.\r\n"
+  },
+  {
+    "id": "624b239e92b224ce4f4b1a67",
+    "name": "Red Luxury Sedan",
+    "img": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?t=st=1649155788~exp=1649156388~hmac=84dd37ce07547f519d5fe216bcfb048a01e4ccb37681aa94b340e4bc75d8c740&w=740",
+    "rating": 3.5,
+    "reviewerImg": "https://img.freepik.com/free-photo/medium-shot-happy-man-smiling_23-2148221808.jpg?t=st=1649098692~exp=1649099292~hmac=54157f77c386fac2998d7d2848d0d01c2c9f2a72adc6ba2f87e6d270fb8a16f9&w=740",
+    "reviewer": "Ronald Crane",
+    "review": "Tempor dolore enim minim exercitation exercitation incididunt qui dolor velit id. Consectetur in velit anim reprehenderit deserunt non duis exercitation. Ex est ea eiusmod pariatur ut irure elit.\r\n"
+  },
+  {
+    "id": "624b239eb08de5dc7c79abe8",
+    "name": "White Offroader Jeep",
+    "img": "https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?t=st=1649155788~exp=1649156388~hmac=efd4935286a471b5fd89399d26ed64c24404c6d9d9b808759eda526d47b5c543&w=740",
+    "rating": 4.5,
+    "reviewerImg": "https://img.freepik.com/free-photo/business-woman-sitting-with-coffee-cup-laptop_23-2148095734.jpg?w=740",
+    "reviewer": "Ariana Clark",
+    "review": "Commodo minim eu elit officia laborum ullamco proident proident id non occaecat. Proident eu id et cillum in magna. Ipsum fugiat veniam consectetur officia cillum veniam est pariatur cillum sint id. Adipisicing velit consequat adipisicing aute. Qui aliqua adipisicing pariatur Lorem do elit. Elit excepteur nulla Lorem est occaecat adipisicing et sunt sit fugiat in anim est. Culpa Lorem esse in enim elit incididunt esse enim sunt fugiat fugiat id.\r\n"
+  },
+  {
+    "id": "624b239e8ca016e9b2462a92",
+    "name": "Yellow Sports Car",
+    "img": "https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?w=740",
+    "rating": 4.0,
+    "reviewerImg": "https://img.freepik.com/free-photo/close-up-young-man-looking-camera-against-grey-wall_23-2148130316.jpg?w=740",
+    "reviewer": "Will Jonson",
+    "review": "Proident dolore labore cillum cupidatat voluptate aute labore nulla sunt qui. Magna irure ea amet eiusmod ex officia ea ex dolore dolore magna cillum nisi cillum. Incididunt dolor ex aute et deserunt. Commodo duis adipisicing laborum esse do occaecat culpa aliquip officia officia anim cupidatat do. Dolore adipisicing veniam sit magna sint in ea incididunt do consectetur sunt aute magna. Eu deserunt consectetur Lorem ad aute sint culpa laboris do mollit ipsum commodo.\r\n"
+  }
+]

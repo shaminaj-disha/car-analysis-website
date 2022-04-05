@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Reviews = (props) => {
+const DynamicHome = (props) => {
     const { img, name, rating, reviewer, review } = props.review;
     return (
         <div>
@@ -21,4 +21,4 @@ const Reviews = (props) => {
     );
 };
 
-export default Reviews;
+export default DynamicHome;

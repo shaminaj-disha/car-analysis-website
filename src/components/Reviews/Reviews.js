@@ -5,7 +5,7 @@ const Reviews = (props) => {
     return (
         <div>
             <hr className='w-5/6 mx-auto'></hr>
-            <div className='grid gap-y-50 grid-cols-2 justify-items-stretch content-center border-0 w-10/12 mx-auto my-10 rounded-md'>
+            <div className='lg:grid lg:gap-y-50 lg:grid-cols-2 lg:justify-items-stretch lg:content-center md:flex md:flex-col border-0 w-10/12 mx-auto my-10 rounded-md'>
                 <div className='m-0 p-0'>
                     <img src={img} className='object-fill h-full w-full border-0 rounded-full' alt="" />
                 </div>

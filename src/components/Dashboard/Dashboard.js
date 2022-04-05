@@ -9,10 +9,10 @@ const Dashboard = () => {
             .then(data => setData(data));
     }, []);
     return (
-        <div className='grid gap-y-20 grid-cols-2'>
+        <div className='lg:grid lg:gap-y-20 lg:grid-cols-2 md:flex md:flex-col'>
             <div>
                 <h1 className='text-sky-400/100 font-bold'>Month wise Sell</h1>
-                <LineChart className='mx-auto'
+                <LineChart className='mx-auto w-5/6 h-5/6'
                     width={500}
                     height={400}
                     data={data}

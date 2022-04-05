@@ -13,7 +13,7 @@ const Home = () => {
     }
     return (
         <div>
-            <div className='flex items-center justify-center'>
+            <div className='lg:flex lg:items-center lg:justify-center md:grid md:grid-cols-1 md:justify-items-center md:content-center md:gap-4'>
                 <div>
                     <h1 className='text-6xl font-bold px-20'>Your next car</h1>
                     <h1 className='text-6xl font-bold text-sky-600 px-20'>Your best car</h1>

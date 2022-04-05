@@ -1,4 +1,5 @@
 // import { Route, Routes } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
@@ -17,6 +18,12 @@ import useReviews from './hooks/useReviews';
 
 function App() {
   const [reviews] = useReviews();
+  const [blogs, setBlogs] = useState([]);
+  useEffect(() => {
+    fetch('blogs.json')
+      .then(res => res.json())
+      .then(data => setBlogs(data));
+  }, []);
   return (
     <div className="App">
       <Header></Header>
@@ -29,7 +36,11 @@ function App() {
             review={review}
           ></Reviews>)} />
         <Route path='/dashboard' element={<Dashboard></Dashboard>} />
-        <Route path='/blogs' element={<Blogs></Blogs>} />
+        <Route path='/blogs' element={blogs.map(blog =>
+          <Blogs
+            key={blog.id}
+            blog={blog}
+          ></Blogs>)} />
         <Route path='/about' element={<About></About>} />
         <Route path='*' element={<NoMatch></NoMatch>} />
       </Routes>

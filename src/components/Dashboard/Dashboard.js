@@ -11,7 +11,7 @@ const Dashboard = () => {
     return (
         <div className='grid gap-y-20 grid-cols-2'>
             <div>
-                <h1 className='text-sky-400/100 font-bold'>MONTH WISE SELL</h1>
+                <h1 className='text-sky-400/100 font-bold'>Month wise Sell</h1>
                 <LineChart className='mx-auto'
                     width={500}
                     height={400}

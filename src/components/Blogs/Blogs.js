@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Blogs = () => {
+const Blogs = (props) => {
+    const {question, answer} = props.blog;
     return (
-        <div>
-            <h1>This is Blogs</h1>
+        <div className='m-20 p-10 border-2 rounded bg-sky-200'>
+            <h1 className='text-4xl py-5 font-bold'>{question}</h1>
+            <p className='text-2xl'><span className='font-bold'>Answer:</span> {answer}</p>
         </div>
     );
 };

@@ -12,6 +12,6 @@
   {
     "id": "624c25b2ed501db274e24947",
     "question": "What are the differences Between 'Inline Block' and 'Inline Block Elements'?\r\n",
-    "answer": "Cupidatat officia aliquip consectetur voluptate qui do do. Eiusmod et aute esse esse fugiat qui. Dolore tempor adipisicing ea excepteur deserunt. Culpa magna tempor commodo ut. Elit adipisicing excepteur incididunt exercitation sit occaecat deserunt. Cupidatat nisi excepteur aute sint officia eiusmod dolor ipsum mollit irure.\r\n"
+    "answer": "Inline-block is formatted just like the inline element, where it doesn't start on a new line. BUT, we can set width and height values. Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides. we'll have to declare display: inline-block in our CSS code. One common use for using inline-block is for creating navigation links horizontally.\r\n"
   }
 ]

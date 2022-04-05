@@ -44,6 +44,7 @@ const Dashboard = () => {
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
+                    <Legend />
                     <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
                     <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
                 </AreaChart>
@@ -69,7 +70,11 @@ const Dashboard = () => {
             </div>
             <div>
                 <h1 className='text-sky-400/100 font-bold'>Investment vs Revenue</h1>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="month" />
+                <YAxis />
                 <Tooltip />
+                <Legend />
                 <PieChart className='mx-auto'
                     width={400}
                     height={400}

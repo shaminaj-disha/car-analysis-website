@@ -17,7 +17,7 @@ const Home = () => {
                 <div>
                     <h1 className='text-6xl font-bold px-20'>Your next car</h1>
                     <h1 className='text-6xl font-bold text-sky-600 px-20'>Your best car</h1>
-                    <p className='py-10 px-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores sit voluptate voluptatem, sed, reiciendis repellat alias repellendus ad quasi culpa modi, quos omnis quod soluta quam non. Vitae, sed?</p>
+                    <p className='py-10 px-20'>Looking for a new car? This website may be the perfect place for you. We have a collection of latest car reviews with ratings. From here you can easily get your desired car.</p>
                     <a href="https://youtu.be/0Ghjlt1GvSg" target="_blank" rel="noreferrer"><button className='bg-sky-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded'>Live Demo</button></a>
                 </div>
                 <div className='pr-20 w-full h-full'>

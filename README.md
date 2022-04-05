@@ -5,12 +5,16 @@
 
 --------------
 ### Project Description
-* To install recharts run:
+* There is a navigation bar which navigates to different routes such as Home, Reviews, Dashboard, Blogs and About
 
-`npm install recharts --force`
+* In Home, there are two sections. One is a quick overview and the other is customer reviews which shows only first three reviews from `review.json`
 
-* If you see the following warning, ignore it for now. 
+* In Reviews, all customer reviews are shown from `review.json`
 
-`Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot`
+* In Dashboard, four type of charts are shown from `data.json`
 
-* For the dashboard, you can modify the data provided in `data.json` and you can load the data the way you want. 
+* In Blogs, three questions are answered from `blogs.json`
+
+* In About, projects description is added
+
+* If random path names are given which does not match any route, then it will route to Not Found

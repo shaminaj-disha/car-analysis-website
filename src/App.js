@@ -13,11 +13,9 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NoMatch from './components/NoMatch/NoMatch';
-import Reviews from './components/Reviews/Reviews';
-import useReviews from './hooks/useReviews';
+import ReviewStatic from './components/ReviewStatic/ReviewStatic';
 
 function App() {
-  const [reviews] = useReviews();
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     fetch('blogs.json')
@@ -30,11 +28,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>} />
         <Route path="/home" element={<Home></Home>} />
-        <Route path='/reviews' element={reviews.map(review =>
-          <Reviews
-            key={review.id}
-            review={review}
-          ></Reviews>)} />
+        <Route path="/reviews" element={<ReviewStatic></ReviewStatic>} />
         <Route path='/dashboard' element={<Dashboard></Dashboard>} />
         <Route path='/blogs' element={blogs.map(blog =>
           <Blogs

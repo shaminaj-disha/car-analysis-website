@@ -1,7 +1,7 @@
 # Car Analysis Website
 
-## [Live Website Link](https://6255564c5360a245752113a3--endearing-naiad-5c6e3c.netlify.app/)
-[https://6255564c5360a245752113a3--endearing-naiad-5c6e3c.netlify.app/](https://6255564c5360a245752113a3--endearing-naiad-5c6e3c.netlify.app/)
+## [Live Website Link](https://endearing-naiad-5c6e3c.netlify.app)
+[https://endearing-naiad-5c6e3c.netlify.app](https://endearing-naiad-5c6e3c.netlify.app)
 
 --------------
 ### Project Description

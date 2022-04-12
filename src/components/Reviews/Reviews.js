@@ -1,4 +1,5 @@
 import React from 'react';
+import StarRatings from 'react-star-ratings/build/star-ratings';
 
 const Reviews = (props) => {
     const { img, name, rating, reviewer, review } = props.review;
@@ -11,8 +12,13 @@ const Reviews = (props) => {
                 </div>
                 <div className='flex flex-col items-center justify-center p-10'>
                     <h3 className='text-3xl font-bold my-2'>{name}</h3>
-                    <p className='my-2'><span className='font-bold'>Rating:</span> {rating}</p>
                     <p className='my-2'><span className='font-bold'>Review By:</span> {reviewer}</p>
+                    <p className='my-2'><span className='font-bold'>Rating: </span> <StarRatings
+                        rating={rating}
+                        starRatedColor="blue"
+                        starDimension="20px"
+                        starSpacing="15px"
+                    /></p>
                     <p className='my-2'><span className='font-bold'>Review:</span> {review}</p>
                 </div>
             </div>

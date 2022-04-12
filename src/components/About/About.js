@@ -8,7 +8,7 @@ const About = () => {
             <p className='text-2xl p-5'>2. In Home, there are two sections. One is a quick overview and the other is customer reviews which shows only first three reviews from 'review.json'</p>
             <p className='text-2xl p-5'>3. In Reviews, all customer reviews are shown from 'review.json'</p>
             <p className='text-2xl p-5'>4. In Dashboard, four type of charts are shown from 'data.json'</p>
-            <p className='text-2xl p-5'>5. In Blogs, three questions are answered from blogs.json</p>
+            <p className='text-2xl p-5'>5. In Blogs, three questions are answered from 'blogs.json'</p>
             <p className='text-2xl p-5'>6. In About, projects description is added</p>
             <p className='text-2xl p-5'>7. If random path names are given which does not match any route, then it will route to Not Found</p>
         </div>

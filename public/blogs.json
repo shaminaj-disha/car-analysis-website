@@ -11,7 +11,7 @@
   },
   {
     "id": "624c25b2ed501db274e24947",
-    "question": "What are the differences Between 'Inline Block' and 'Inline Block Elements'?\r\n",
-    "answer": "Inline-block is formatted just like the inline element, where it doesn't start on a new line. BUT, we can set width and height values. Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides. we'll have to declare display: inline-block in our CSS code. One common use for using inline-block is for creating navigation links horizontally.\r\n"
+    "question": "What are the differences Between 'Inline', 'Inline Block' and 'Block' elements?\r\n",
+    "answer": "Inline : The element doesn’t start on a new line and only occupy just the width it requires. You can’t set the width or height. Here are a few elements that have a default inline property: <span>, <a>, <img>, <em>, <strong>, <i>, <small> etc. Inline-Block: The element doesn’t start on a new line and only occupy just the width it requires. You can’t set the width or height. Block: The element will start on a new line and occupy the full width available. And you can set width and height values. Some Examples of Block elements are: <div>, <h1>, <p>, <li>, <section>, etc.\r\n"
   }
 ]

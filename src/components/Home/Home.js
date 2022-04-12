@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
-import DynamicHome from '../DynamicHome/DynamicHome';
+import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
     const [reviews] = useReviews();
@@ -27,10 +27,10 @@ const Home = () => {
             <div className='mt-40 mb-20'>
                 <h1 className='text-3xl font-bold'>Customer Reviews ({newReviews.length})</h1>
             </div>
-            {newReviews.map(review => <DynamicHome
+            {newReviews.map(review => <Reviews
                 key={review.id}
                 review={review}
-            ></DynamicHome>)}
+            ></Reviews>)}
             <button onClick={showAllReviews} className='bg-sky-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded my-20'>See all reviews</button>
         </div>
     );

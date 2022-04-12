@@ -13,12 +13,12 @@ const Reviews = (props) => {
                 <div className='flex flex-col items-center justify-center p-10'>
                     <h3 className='text-3xl font-bold my-2'>{name}</h3>
                     <p className='my-2'><span className='font-bold'>Review By:</span> {reviewer}</p>
-                    <p className='my-2'><span className='font-bold'>Rating: </span> <StarRatings
+                    <p className='my-2'><span className='font-bold mr-5'>Rating: </span> <StarRatings
                         rating={rating}
-                        starRatedColor="blue"
+                        starRatedColor="GoldenRod"
                         starDimension="20px"
-                        starSpacing="15px"
-                    /></p>
+                        starSpacing="10px"
+                    /> <span className='ml-5'>({rating})</span></p>
                     <p className='my-2'><span className='font-bold'>Review:</span> {review}</p>
                 </div>
             </div>
